@@ -34,7 +34,7 @@ setup(
         'setuptools',
         'Flask'
     ],
-    test_suite='tests.forward.suite',
+    test_suite='tests.test_forward.suite',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
