@@ -101,7 +101,7 @@ html_theme = 'flask_small'
 #html_theme_options = {
 #    'index_logo': 'flask-forward.png'
 #}
-html_theme_options = {}
+html_theme_options = dict(github_fork='saikocat/flask-forward', index_logo=False)
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes']
