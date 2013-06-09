@@ -31,8 +31,6 @@ _default_config = {
     'LEGACY_LOOKUP_METHOD': False
 }
 
-# TODO: auto-conversion of dash into underscore
-
 
 class ForwardResolution(object):
     """The :class:`ForwardResolution` class initializes the Flask-Forward
@@ -105,7 +103,6 @@ class ForwardResolution(object):
             try:
                 jinja_env.loader = loader
                 result_template = jinja_env.get_template(template)
-                #print 'loading: ', loader, template, result_template.filename
                 break
             except TemplateNotFound:
                 result_template = None

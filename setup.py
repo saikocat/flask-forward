@@ -25,7 +25,9 @@ setup(
     license='MIT',
     author='Nguyen Duc Hoa',
     author_email='hoameomu@gmail.com',
-    description='Auto discovery, prioritization and rendering of template',
+    description='Flask-Forward extension provides auto discovery, \
+                 prioritization and rendering of template for Flask \
+                 based on endpoint',
     long_description=__doc__,
     py_modules=['flask_forward'],
     zip_safe=False,
